@@ -1,5 +1,5 @@
 # Pocket-French
-A simple Android Application which can be used to learn basic French pronunciations like numbers, colors, phrases, and family members. 
+A simple Android Application which can be used by students to learn basic French pronunciations by just a few clicks.
 
 I started preparing this App when I was learning about navigation from one activity to another in android. 
 Basically this was the first app in which I started using the concept of explicit intent. Usually in basic android
