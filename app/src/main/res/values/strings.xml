@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pocket French</string>
+
+    <string name="category_phrases">Phrases</string>
+    <string name="category_colors">Colors</string>
+    <string name="category_numbers">Numbers</string>
+    <string name="category_family">Family</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
