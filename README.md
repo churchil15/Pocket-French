@@ -12,7 +12,7 @@ The next important thing is to arrange the list of family members, colors, numbe
 each and every kind of word but arrays are not efficients when it comes to changing the size of it dynamically. Hence the better alternative would be to use
 ArrayList which can store in it the objects of a certain class (Primitive or user defined) as elements of the List. We have to make a class that contains
 default and french translations as Strings and that class objects can be stored inside our ArrayList as elements. This gives us to store more complex 
-information about one element in our ArrayList plus the option of dynalically changing the size of the list as our need.
+information about one element in our ArrayList plus the option of dynamically changing the size of the list as our need.
 To display the list of items present in our ArrayList, we need an adapter. Adapter converts an Array/ArrayList into view items. Basically they communicates 
 with the data source (ArrayList in our case) and asks for each element and displays them onto the list view according to the instructions that we 
 programmers provide them. The instructions to inflate the list item views and to also tell what to display inside the list items. Basically all the instructions
