@@ -9,7 +9,6 @@ the method that we are going to define in our main main JAVA (or Kotlin) logic. 
 These callback methods give more diverse options in terms of any kind of triggered input from user and how to respond it more efficiently and 
 easily.
 
-# 2
 The next important thing is to arrange the list of family members, colors, numbers and phrases. A useful way can be to use an Array of Strings to store
 each and every kind of word but arrays are not efficients when it comes to changing the size of it dynamically. Hence the better alternative would be to use
 ArrayList which can store in it the objects of a certain class (Primitive or user defined) as elements of the List. We have to make a class that contains
