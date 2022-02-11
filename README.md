@@ -1,7 +1,7 @@
 # Pocket-French
 A simple Android Application which can be used by students to learn basic French pronunciations by just a few clicks.
 
-# 1
+
 I started preparing this App when I was learning about navigation from one activity to another in android. 
 Basically this was the first app in which I started using the concept of explicit intent. Usually in basic android
 applications when we have to add a functionality to a button we use android:onClick attribute where we declare the name of
