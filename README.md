@@ -19,14 +19,12 @@ with the data source (ArrayList in our case) and asks for each element and displ
 programmers provide them. The instructions to inflate the list item views and to also tell what to display inside the list items. Basically all the instructions
 about how a single list item view is going to look is being stored inside the adapter.
 
-# 3
 The next thing is to enhance is the user experience of our app. This includes adding images associated with each word or an element inside the List.
 This requires modifying our word class so that it can also store the image resource id of each and every particular element of the list. Thus displaying that image 
 accordingly with that word and in order to so we modify the instructions given in adapter and also modify the list item view associated with it. Also to add 
 different background colors list items present in different activities (Family, Colors, Numbers and Phrases). All these things makes our app more visually polished
 and a good looking experience for the user.
 
-# 4
 Now comes the most important feature of this app which is the ability to pronunce the words and phrases by a single click of the user i.e., adding audio functionlity.
 First, I used VoiceMaker (https://voicemaker.in/) in order to download the sounds of various words and phrases in french. VoiceMaker allows you to customize your 
 sounds by providing the support of a number of languages along with the various voices to choose from. You can also adjust the volume, speed and pitch of your sound
@@ -39,7 +37,6 @@ now has the ability to also take the audio file of each word in it.
 Third, this app also ensures that the resources are used wisely and are made free when they are not being used. This is achieved by something called Async Callbacks.
 This simply means that do something else while waiting for the event to happen. When the event happens, we'll get called back, and can jump into action.
 
-# 5
 The last important thing was to add audio focus in the app. The problem with audio is that two or more android apps can play audio to the same output stream. The same thing
 can happen while playing two or more audio files within the same app. This can mix everything and can make an unpleasant experience to the user. In order to resolve these
 issues we AudioManager.OnAudioFocusChangeListener interface and setup an listener that manages everything related with audio focus in the app. The main 4 important states
