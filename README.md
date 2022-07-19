@@ -5,7 +5,7 @@ A simple Android Application which can be used by students to learn basic French
 I started preparing this App when I was learning about navigation from one activity to another in android. 
 Basically this was the first app in which I started using the concept of explicit intent. Usually in basic android
 applications when we have to add a functionality to a button we use android:onClick attribute where we declare the name of
-the method that we are going to define in our main main JAVA (or Kotlin) logic. But here I started exploring about event click listeners.
+the method that we are going to define in our main JAVA (or Kotlin) logic. But here I started exploring about event click listeners.
 These callback methods give more diverse options in terms of any kind of triggered input from user and how to respond it more efficiently and 
 easily.
 
